@@ -1,0 +1,24 @@
+@font-face {
+   font-family: "Century Gothic";
+   src: url("fonts/Century Gothic.woff") format("woff"), url("fonts/Century Gothic.eot") format("embedded-opentype"), url("fonts/Century Gothic.TTF") format("truetype"), url("fonts/Century Gothic.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Century Gothic";
+   src: url("fonts/Century Gothic Bold.woff") format("woff"), url("fonts/Century Gothic Bold.eot") format("embedded-opentype"), url("fonts/Century Gothic Bold.TTF") format("truetype"), url("fonts/Century Gothic Bold.svg") format("svg");
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Century Gothic";
+   src: url("fonts/Century Gothic Bold Italic.woff") format("woff"), url("fonts/Century Gothic Bold Italic.eot") format("embedded-opentype"), url("fonts/Century Gothic Bold Italic.TTF") format("truetype"), url("fonts/Century Gothic Bold Italic.svg") format("svg");
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face {
+   font-family: "Century Gothic";
+   src: url("fonts/Century Gothic Italic.woff") format("woff"), url("fonts/Century Gothic Italic.eot") format("embedded-opentype"), url("fonts/Century Gothic Italic.TTF") format("truetype"), url("fonts/Century Gothic Italic.svg") format("svg");
+   font-weight: normal;
+   font-style: italic;
+}
