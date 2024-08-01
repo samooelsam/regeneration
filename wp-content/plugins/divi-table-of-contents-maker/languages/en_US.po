@@ -1,0 +1,1343 @@
+# Copyright (C) 2024 Pee-Aye Creative
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi Table Of Contents Maker 1.3.1\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/divi-table-of-contents-maker\n"
+"POT-Creation-Date: 2024-06-02 06:23:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:894
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:895
+msgid "2"
+msgstr ""
+
+#: divi-table-of-contents.php:62
+msgid "Documentation & Support"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:16
+msgid "Table Of Contents Maker"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:24
+msgid "Header Settings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:25
+msgid "Content Settings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:27
+msgid "Heading Level Settings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:31
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:67
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:95
+msgid "H1"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:34
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:70
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:98
+msgid "H2"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:37
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:73
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:101
+msgid "H3"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:40
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:76
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:104
+msgid "H4"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:43
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:79
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:107
+msgid "H5"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:46
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:82
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:110
+msgid "H6"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:54
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:559
+msgid "Header"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:55
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:123
+msgid "Header Title Text"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:56
+msgid "Header Icons"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:57
+msgid "Keyword Highlight"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:58
+msgid "Content"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:60
+msgid "Content Heading Links"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:64
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:92
+msgid "All"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:86
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:636
+msgid "Content Heading Active Link"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:88
+msgid "Content Heading Markers"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:139
+msgid "Header Title"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:164
+msgid "Content Heading"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:188
+msgid "Content Heading 1"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:208
+msgid "Content Heading 2"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:228
+msgid "Content Heading 3"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:248
+msgid "Content Heading 4"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:267
+msgid "Content Heading 5"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:287
+msgid "Content Heading 6"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:307
+msgid "Active Content Heading"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:330
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:578
+msgid "Field"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:348
+msgid "Content Header All Marker"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:375
+msgid "Content Header 1 Marker"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:400
+msgid "Content Header 2 Marker"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:425
+msgid "Content Header 3 Marker"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:450
+msgid "Content Header 4 Marker"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:475
+msgid "Content Header 5 Marker"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:501
+msgid "Content Header 6 Marker"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:597
+msgid "Content Area"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:616
+msgid "Content Heading Link"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:648
+msgid "Header Box Shadow Settings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:657
+msgid "Field Box Shadow Settings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:666
+msgid "Content Area Box Shadow Settings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:675
+msgid "Content Heading Link Box Shadow Settings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:685
+msgid "Content Heading Active Link Box Shadow Settings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:702
+msgid "Show Header"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:705
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:734
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:769
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:784
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:799
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:904
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:955
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:977
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1240
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1289
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1338
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1387
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1436
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1704
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:706
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:735
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:770
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:785
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:800
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:905
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:956
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:978
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1241
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1290
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1339
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1388
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1437
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1705
+msgid "No"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:708
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:709
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:737
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:738
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:802
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:803
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1243
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1244
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1292
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1293
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1341
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1342
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1390
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1391
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1439
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1440
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1707
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1708
+msgid "on"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:711
+msgid "Choose to show and hide the header of the table of contents."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:721
+msgid "Title"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:723
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:724
+msgid "Table of Contents"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:726
+msgid "Enter custom text for the table of contents header title."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:731
+msgid "Allow Collapse/Expand"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:740
+msgid ""
+"Choose whether viewers have the option to collapse and expand the table of "
+"contents."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:751
+msgid "Default State"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:754
+msgid "Collapsed"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:755
+msgid "Expanded"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:757
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:758
+msgid "open"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:760
+msgid "Set the default state of the table of contents as collapsed or expanded."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:766
+msgid "Collapse When Sticky"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:772
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:773
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:787
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:788
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:860
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:861
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:907
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:908
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:958
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:959
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:980
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:981
+msgid "off"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:775
+msgid "Set the table of contents as collapsed when sticky."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:781
+msgid "Collapse To Icon Only"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:790
+msgid "Choose to collapse the table of contents to only an icon."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:796
+msgid "Show Icon"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:805
+msgid "Choose to show an icon in the table of contents header."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:815
+msgid "Icon Position"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:818
+msgid "Left"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:819
+msgid "Right"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:821
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:822
+msgid "right"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:824
+msgid "Choose to align the icon to the left or right side."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:829
+msgid "Expanded Icon"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:835
+msgid "Choose an icon to collapse the table of contents when it is expanded."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:840
+msgid "Collapsed Icon"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:846
+msgid "Choose an icon to expand the table of contents when it is collapsed."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:853
+msgid "Include Or Exclude Headings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:856
+msgid "Include All Headings"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:857
+msgid "Exclude Specific Headings By Class"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:858
+msgid "Include Specific Headings By Class"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:863
+msgid ""
+"Choose which headings to include in the table of contents by either "
+"automatically including all headings except those that are manually "
+"excluded by a CSS class or by only including those that are manually "
+"included by a CSS class. You can add the class “pac-dtocm-exclude” to "
+"exclude or “pac-dtocm-include” to include to any section, row, or module in "
+"your Divi layout."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:867
+msgid "Included Heading Levels"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:870
+msgid "Choose which heading levels should be included in the table of contents."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:885
+msgid "Hide Entire Module If"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:888
+msgid "Less Than 2 Headings Found In Content"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:889
+msgid "Less Than 3 Headings Found In Content"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:890
+msgid "Less Than 4 Headings Found In Content"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:891
+msgid "Less Than 5 Headings Found In Content"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:892
+msgid "Less Than 6 Headings Found In Content"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:897
+msgid ""
+"Select the minimum number of headings on the current post to determine "
+"whether the table of contents should be visible or not. If the number of "
+"headings that match the included criteria is lower than the selected "
+"number, then the entire module will hide."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:901
+msgid "Show Alternative Content If Module Hidden"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:910
+msgid ""
+"Choose to show some alternative content by placing the CSS class "
+"\"dtocm-show-alternative-content\" in any Divi module, row, or section if "
+"the table of contents module is hidden based on the minimum heading "
+"requirements."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:914
+msgid "Scroll Speed"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:929
+msgid ""
+"Adjust the speed of the page scroll when clicking links in the table of "
+"contents."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:933
+msgid "Top Offset"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:948
+msgid ""
+"Define the vertical distance from the top edge of the browser window to the "
+"heading when scrolling to a linked content heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:952
+msgid "Show Keyword Highlight"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:961
+msgid ""
+"Choose to enable a keyword search bar feature to highlight words in the "
+"post content."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:965
+msgid "Keyword Highlight Custom Text"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:967
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:968
+msgid "Keyword Highlight..."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:970
+msgid "Enter custom text for the keyword highlight input placeholder."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:974
+msgid "Highlight Active Link"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:983
+msgid ""
+"Choose to enable the active link in the table of contents that matches the "
+"current visible heading in the viewport."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:987
+msgid "Marker Position"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:990
+msgid "Inside"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:991
+msgid "Outside"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:993
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:994
+msgid "inside"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:996
+msgid ""
+"Choose to show the heading level markers inside or outside the heading "
+"level text design settings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1002
+msgid "Heading Level 1 Markers"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1005
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1041
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1077
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1113
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1149
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1185
+msgid "None"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1006
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1042
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1078
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1114
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1150
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1186
+msgid "Icons"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1007
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1043
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1079
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1115
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1151
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1187
+msgid "Whole Numbers (1, 2, 3)"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1008
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1044
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1080
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1116
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1152
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1188
+msgid "Whole Numbers With Leading Zeros (01, 02, 03)"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1009
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1045
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1081
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1117
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1153
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1189
+msgid "Decimal Numbers Of Parent Level (1.1, 1.2, 1.3)"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1010
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1046
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1082
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1118
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1154
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1190
+msgid "Decimal Numbers (1.0, 2.0, 3.0)"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1011
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1047
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1083
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1119
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1155
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1191
+msgid "Uppercase Letters (A, B, C)"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1012
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1048
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1084
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1120
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1156
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1192
+msgid "Lowercase Letters (a, b, c)"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1013
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1049
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1085
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1121
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1157
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1193
+msgid "Uppercase Roman Numerals (I, V, X, L)"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1014
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1050
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1086
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1122
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1158
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1194
+msgid "Lowercase Roman Numerals (i, v, x, l)"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1016
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1017
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1052
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1053
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1088
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1089
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1124
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1125
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1160
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1161
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1196
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1197
+msgid "decimal-leading-zero"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1019
+msgid "Select the markers for level 1 headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1024
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1060
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1096
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1132
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1168
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1204
+msgid "Icon Picker"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1030
+msgid "Choose an icon as a marker for level one headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1038
+msgid "Heading Level 2 Markers"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1055
+msgid "Select the markers for level 2 headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1066
+msgid "Choose an icon as a marker for level two headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1074
+msgid "Heading Level 3 Markers"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1091
+msgid "Select the markers for level 3 headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1102
+msgid "Choose an icon as a marker for level three headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1110
+msgid "Heading Level 4 Markers"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1127
+msgid "Select the markers for level 4 headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1138
+msgid "Choose an icon as a marker for level four headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1146
+msgid "Heading Level 5 Markers"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1163
+msgid "Select the markers for level 5 headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1174
+msgid "Choose an icon as a marker for level five headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1182
+msgid "Heading Level 6 Markers"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1199
+msgid "Select the markers for level 6 headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1210
+msgid "Choose an icon as a marker for level six headings."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1222
+msgid "Heading Level 1 Overflow"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1225
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1274
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1323
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1372
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1421
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1470
+msgid "Wrap To New Line"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1226
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1275
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1324
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1373
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1422
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1471
+msgid "Hidden with Ellipsis (...)"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1228
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1229
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1277
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1278
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1326
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1327
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1375
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1376
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1424
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1425
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1473
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1474
+msgid "wrap"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1231
+msgid ""
+"Choose how to handle heading level 1 text that that is longer than the "
+"available width of the module."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1237
+msgid "Indent Heading Level 2"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1246
+msgid "Choose to show heading level 2 indented underneath the parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1251
+msgid "Heading Level 2 Indent Amount"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1263
+msgid ""
+"Set the amount of distance heading level 2 is indented underneath the "
+"parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1271
+msgid "Heading Level 2 Overflow"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1280
+msgid ""
+"Choose how to handle heading level 2 text that that is longer than the "
+"available width of the module."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1286
+msgid "Indent Heading Level 3"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1295
+msgid "Choose to show heading level 3 indented underneath the parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1300
+msgid "Heading Level 3 Indent Amount"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1312
+msgid ""
+"Set the amount of distance heading level 3 is indented underneath the "
+"parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1320
+msgid "Heading Level 3 Overflow"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1329
+msgid ""
+"Choose how to handle heading level 3 text that that is longer than the "
+"available width of the module."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1335
+msgid "Indent Heading Level 4"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1344
+msgid "Choose to show heading level 4 indented underneath the parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1349
+msgid "Heading Level 4 Indent Amount"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1361
+msgid ""
+"Set the amount of distance heading level 4 is indented underneath the "
+"parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1369
+msgid "Heading Level 4 Overflow"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1378
+msgid ""
+"Choose how to handle heading level 4 text that that is longer than the "
+"available width of the module."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1384
+msgid "Indent Heading Level 5"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1393
+msgid "Choose to show heading level 5 indented underneath the parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1398
+msgid "Heading Level 5 Indent Amount"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1410
+msgid ""
+"Set the amount of distance heading level 5 is indented underneath the "
+"parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1418
+msgid "Heading Level 5 Overflow"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1427
+msgid ""
+"Choose how to handle heading level 5 text that that is longer than the "
+"available width of the module."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1433
+msgid "Indent Heading Level 6"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1442
+msgid "Choose to show heading level 6 indented underneath the parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1447
+msgid "Heading Level 6 Indent Amount"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1459
+msgid ""
+"Set the amount of distance heading level 6 is indented underneath the "
+"parent heading."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1467
+msgid "Heading Level 6 Overflow"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1476
+msgid ""
+"Choose how to handle heading level 6 text that that is longer than the "
+"available width of the module."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1485
+msgid "Header Margin"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1489
+msgid "Adjust the spacing around the outside of the header."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1494
+msgid "Header Padding"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1498
+msgid "Adjust the spacing around the inside of the header."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1503
+msgid "Header Background Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1508
+msgid "Pick a color to be used for the header background."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1515
+msgid "Header Open Icon Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1520
+msgid "Pick a color to be used for the open icon."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1525
+msgid "Header Open Icon Size"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1537
+msgid "Here you can set the size of open icon."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1542
+msgid "Header Closed Icon Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1547
+msgid "Pick a color to be used for the close icon."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1552
+msgid "Header Closed Icon Size"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1564
+msgid "Here you can set the size of close icon."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1571
+msgid "Highlighted Keyword Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1576
+msgid "Set the color of the highlighted keywords in the content."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1584
+msgid "Highlighted Keyword Background Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1589
+msgid "Set the background color of the highlighted keywords in the content."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1597
+msgid "Field Placeholder Text Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1602
+msgid "Set the color of the placeholder text in the keyword search field."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1610
+msgid "Field Background Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1615
+msgid "Set the color of the background of the keyword search field."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1623
+msgid "Field Text Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1628
+msgid "Set the color of the text in the keyword search field."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1636
+msgid "Field Focus Text Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1641
+msgid "Set the focus color of the text when typing in the keyword search field."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1649
+msgid "Field Focus Background Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1654
+msgid "Set the focus background color when typing of the keyword search field."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1662
+msgid "Field Focus Border Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1667
+msgid "Set the focus border color when typing of the keyword search field."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1675
+msgid "Field Margin"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1679
+msgid "Adjust the spacing around the outside of the keyword search field."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1687
+msgid "Field Padding"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1691
+msgid "Adjust the spacing around the inside of the keyword search field."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1701
+msgid "Limit Content Height"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1710
+msgid ""
+"Choose to limit the height of the content area and show a scrollbar. If "
+"this is disabled, the content will always expand to full height."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1715
+msgid "Content Max Height"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1730
+msgid "Set the maximum height of the content area."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1738
+msgid "Scrollbar Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1743
+msgid "Set the color of the content area scrollbar."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1751
+msgid "Scrollbar Width"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1766
+msgid "Set the width of the content area scrollbar."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1774
+msgid "Content Area Margin"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1778
+msgid "Adjust the spacing around the outside of the content area."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1783
+msgid "Content Area Padding"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1787
+msgid "Adjust the spacing around the inside of the content area."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1792
+msgid "Content Area Background Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1797
+msgid "Pick a color to be used for the content area background."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1805
+msgid "Content Heading Link Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1810
+msgid "Pick a color to be used for the content heading links."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1816
+msgid "Content Heading Link Underline Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1821
+msgid "Pick a color to be used for the content heading links underline."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1827
+msgid "Content Heading Link Underline Thickness"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1842
+msgid "Set the width of the content heading link underline."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1848
+msgid "Content Heading Link Background Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1853
+msgid "Pick a color to be used for the content heading links background."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1859
+msgid "Content Heading Link Margin"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1863
+msgid "Adjust the spacing around the outside of the content heading links."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1869
+msgid "Content Heading Link Padding"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1873
+msgid "Adjust the spacing around the inside of the content heading links."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1881
+msgid "Content Heading 1 Link Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1886
+msgid "Pick a color to be used for the content heading 1 links."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1892
+msgid "Content Heading 1 Link Underline Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1897
+msgid "Pick a color to be used for the content heading 1 links underline."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1905
+msgid "Content Heading 2 Link Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1910
+msgid "Pick a color to be used for the content heading 2 links."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1916
+msgid "Content Heading 2 Link Underline Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1921
+msgid "Pick a color to be used for the content heading 2 links underline."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1929
+msgid "Content Heading 3 Link Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1934
+msgid "Pick a color to be used for the content heading 3 links."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1940
+msgid "Content Heading 3 Link Underline Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1945
+msgid "Pick a color to be used for the content heading 3 links underline."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1953
+msgid "Content Heading 4 Link Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1958
+msgid "Pick a color to be used for the content heading 4 links."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1964
+msgid "Content Heading 4 Link Underline Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1969
+msgid "Pick a color to be used for the content heading 4 links underline."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1977
+msgid "Content Heading 5 Link Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1982
+msgid "Pick a color to be used for the content heading 5 links."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1988
+msgid "Content Heading 5 Link Underline Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:1993
+msgid "Pick a color to be used for the content heading 5 links underline."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2001
+msgid "Content Heading 6 Link Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2006
+msgid "Pick a color to be used for the content heading 6 links."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2012
+msgid "Content Heading 6 Link Underline Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2017
+msgid "Pick a color to be used for the content heading 6 links underline."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2025
+msgid "Active Content Heading Text Link Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2030
+msgid "Pick a color to be used for the active links color."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2035
+msgid "Active Content Heading Text Link Underline Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2040
+msgid "Pick a color to be used for the active links underline color."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2045
+msgid "Active Content Heading Link Underline Thickness"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2060
+msgid "Set the width of the active content heading link underline."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2065
+msgid "Active Content Heading Text Link Background Color"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2070
+msgid "Pick a color to be used for the active links background color."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2075
+msgid "Active Content Heading Text Link Margin"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2079
+msgid ""
+"Adjust the spacing around the outside of the active content heading text "
+"link area."
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2084
+msgid "Active Content Heading Text Link Padding"
+msgstr ""
+
+#: includes/modules/divi-table-of-contents/divi-table-of-contents.php:2088
+msgid ""
+"Adjust the spacing around the inside of the active content heading text "
+"link area."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Divi Table Of Contents Maker"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.peeayecreative.com/product/divi-table-of-contents-maker/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Improve your blog post navigation, readability, and SEO with the first and "
+"only table of contents module for Divi! Includes hundreds of customization "
+"settings and design styling options."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pee-Aye Creative"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.peeayecreative.com/"
+msgstr ""

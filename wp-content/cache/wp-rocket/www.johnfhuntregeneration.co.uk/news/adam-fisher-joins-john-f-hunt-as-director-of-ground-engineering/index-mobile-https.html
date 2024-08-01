@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W3M5N82C');</script>
+	<!-- End Google Tag Manager -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://www.johnfhuntregeneration.co.uk/xmlrpc.php" />
+
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<script id="diviarea-loader">window.DiviPopupData=window.DiviAreaConfig={"zIndex":1000000,"animateSpeed":400,"triggerClassPrefix":"show-popup-","idAttrib":"data-popup","modalIndicatorClass":"is-modal","blockingIndicatorClass":"is-blocking","defaultShowCloseButton":true,"withCloseClass":"with-close","noCloseClass":"no-close","triggerCloseClass":"close","singletonClass":"single","darkModeClass":"dark","noShadowClass":"no-shadow","altCloseClass":"close-alt","popupSelector":".et_pb_section.popup","initializeOnEvent":"et_pb_after_init_modules","popupWrapperClass":"area-outer-wrap","fullHeightClass":"full-height","openPopupClass":"da-overlay-visible","overlayClass":"da-overlay","exitIndicatorClass":"on-exit","hoverTriggerClass":"on-hover","clickTriggerClass":"on-click","onExitDelay":2000,"notMobileClass":"not-mobile","notTabletClass":"not-tablet","notDesktopClass":"not-desktop","baseContext":"body","activePopupClass":"is-open","closeButtonClass":"da-close","withLoaderClass":"with-loader","debug":false,"ajaxUrl":"https:\/\/www.johnfhuntregeneration.co.uk\/wp-admin\/admin-ajax.php","sys":[]};var divimode_loader=function(){"use strict";!function(t){t.DiviArea=t.DiviPopup={loaded:!1};var n=t.DiviArea,i=n.Hooks={},o={};function r(t,n,i){var r,e,c;if("string"==typeof t)if(o[t]){if(n)if((r=o[t])&&i)for(c=r.length;c--;)(e=r[c]).callback===n&&e.context===i&&(r[c]=!1);else for(c=r.length;c--;)r[c].callback===n&&(r[c]=!1)}else o[t]=[]}function e(t,n,i,r){if("string"==typeof t){var e={callback:n,priority:i,context:r},c=o[t];c?(c.push(e),c=function(t){var n,i,o,r,e=t.length;for(r=1;r<e;r++)for(n=t[r],i=r;i>0;i--)(o=t[i-1]).priority>n.priority&&(t[i]=o,t[i-1]=n);return t}(c)):c=[e],o[t]=c}}function c(t,n,i){"string"==typeof n&&(n=[n]);var r,e,c=[];for(r=0;r<n.length;r++)Array.prototype.push.apply(c,o[n[r]]);for(e=0;e<c.length;e++){var a=void 0;c[e]&&"function"==typeof c[e].callback&&("filter"===t?void 0!==(a=c[e].callback.apply(c[e].context,i))&&(i[0]=a):c[e].callback.apply(c[e].context,i))}if("filter"===t)return i[0]}i.silent=function(){return i},n.removeFilter=i.removeFilter=function(t,n){r(t,n)},n.removeAction=i.removeAction=function(t,n){r(t,n)},n.applyFilters=i.applyFilters=function(t){for(var n=[],i=arguments.length-1;i-- >0;)n[i]=arguments[i+1];return c("filter",t,n)},n.doAction=i.doAction=function(t){for(var n=[],i=arguments.length-1;i-- >0;)n[i]=arguments[i+1];c("action",t,n)},n.addFilter=i.addFilter=function(n,i,o,r){e(n,i,parseInt(o||10,10),r||t)},n.addAction=i.addAction=function(n,i,o,r){e(n,i,parseInt(o||10,10),r||t)},n.addActionOnce=i.addActionOnce=function(n,i,o,c){e(n,i,parseInt(o||10,10),c||t),e(n,(function(){r(n,i)}),1+parseInt(o||10,10),c||t)}}(window);return{}}();
+</script><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v23.1 (Yoast SEO v23.1) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Director of Ground Engineering - Dr Adam Fisher - John F Hunt Regeneration</title><link rel="preload" data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CNunito%3A200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7COpen%20Sans%3A300%2Cregular%2C500%2C600%2C700%2C800%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic&#038;subset=latin%2Clatin-ext&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CNunito%3A200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7COpen%20Sans%3A300%2Cregular%2C500%2C600%2C700%2C800%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic&#038;subset=latin%2Clatin-ext&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CNunito%3A200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7COpen%20Sans%3A300%2Cregular%2C500%2C600%2C700%2C800%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic%2C800italic&#038;subset=latin%2Clatin-ext&#038;display=swap" /></noscript>
+	<meta name="description" content="Dr Adam Fisher joins John F Hunt Regeneration as Director of Ground Engineering. Stay informed on groundbreaking development." />
+	<link rel="canonical" href="https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Dr Adam Fisher Joins John F Hunt Regeneration as Director of Ground Engineering" />
+	<meta property="og:url" content="https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/" />
+	<meta property="og:site_name" content="John F Hunt Regeneration" />
+	<meta property="article:published_time" content="2021-09-01T08:21:30+00:00" />
+	<meta property="article:modified_time" content="2024-07-14T08:14:10+00:00" />
+	<meta property="og:image" content="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/09/2021-09-01-09_14_37-Adam-Fisher-Aug-21_AF-edit-300821-Word.png" />
+	<meta property="og:image:width" content="567" />
+	<meta property="og:image:height" content="693" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="author" content="Simon Skentelbery" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@JohnFHunt_Group" />
+	<meta name="twitter:site" content="@JohnFHunt_Group" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Simon Skentelbery" />
+	<meta name="twitter:label2" content="Estimated reading time" />
+	<meta name="twitter:data2" content="2 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":["Article","BlogPosting"],"@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/#article","isPartOf":{"@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/"},"author":{"name":"Simon Skentelbery","@id":"https://www.johnfhuntregeneration.co.uk/#/schema/person/dd7a1b78e928a0c0a5755ce8264466f9"},"headline":"Dr Adam Fisher Joins John F Hunt Regeneration as Director of Ground Engineering","datePublished":"2021-09-01T08:21:30+00:00","dateModified":"2024-07-14T08:14:10+00:00","mainEntityOfPage":{"@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/"},"wordCount":596,"publisher":{"@id":"https://www.johnfhuntregeneration.co.uk/#organization"},"image":{"@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/#primaryimage"},"thumbnailUrl":"https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/09/2021-09-01-09_14_37-Adam-Fisher-Aug-21_AF-edit-300821-Word.png","articleSection":["Lastest News"],"inLanguage":"en-GB"},{"@type":"WebPage","@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/","url":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/","name":"Director of Ground Engineering - Dr Adam Fisher - John F Hunt Regeneration","isPartOf":{"@id":"https://www.johnfhuntregeneration.co.uk/#website"},"primaryImageOfPage":{"@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/#primaryimage"},"image":{"@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/#primaryimage"},"thumbnailUrl":"https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/09/2021-09-01-09_14_37-Adam-Fisher-Aug-21_AF-edit-300821-Word.png","datePublished":"2021-09-01T08:21:30+00:00","dateModified":"2024-07-14T08:14:10+00:00","description":"Dr Adam Fisher joins John F Hunt Regeneration as Director of Ground Engineering. Stay informed on groundbreaking development.","breadcrumb":{"@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/"]}]},{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/#primaryimage","url":"https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/09/2021-09-01-09_14_37-Adam-Fisher-Aug-21_AF-edit-300821-Word.png","contentUrl":"https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/09/2021-09-01-09_14_37-Adam-Fisher-Aug-21_AF-edit-300821-Word.png","width":567,"height":693,"caption":"Adam Fisher portrait"},{"@type":"BreadcrumbList","@id":"https://www.johnfhuntregeneration.co.uk/news/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"John F Hunt Regeneration","item":"https://www.johnfhuntregeneration.co.uk/"},{"@type":"ListItem","position":2,"name":"Dr Adam Fisher Joins John F Hunt Regeneration as Director of Ground Engineering"}]},{"@type":"WebSite","@id":"https://www.johnfhuntregeneration.co.uk/#website","url":"https://www.johnfhuntregeneration.co.uk/","name":"John F Hunt Regeneration","description":"","publisher":{"@id":"https://www.johnfhuntregeneration.co.uk/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.johnfhuntregeneration.co.uk/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-GB"},{"@type":"Organization","@id":"https://www.johnfhuntregeneration.co.uk/#organization","name":"John F Hunt Regeneration","url":"https://www.johnfhuntregeneration.co.uk/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://www.johnfhuntregeneration.co.uk/#/schema/logo/image/","url":"https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2023/11/John-F-Hunt-Regeneration-logo.png","contentUrl":"https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2023/11/John-F-Hunt-Regeneration-logo.png","width":696,"height":696,"caption":"John F Hunt Regeneration"},"image":{"@id":"https://www.johnfhuntregeneration.co.uk/#/schema/logo/image/"},"sameAs":["https://x.com/JohnFHunt_Group","https://www.linkedin.com/company/john-f-hunt-regeneration/"]},{"@type":"Person","@id":"https://www.johnfhuntregeneration.co.uk/#/schema/person/dd7a1b78e928a0c0a5755ce8264466f9","name":"Simon Skentelbery","image":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://www.johnfhuntregeneration.co.uk/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/451f2af389602d4c06bb744dcc131a12?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/451f2af389602d4c06bb744dcc131a12?s=96&d=mm&r=g","caption":"Simon Skentelbery"},"sameAs":["https://www.johnfhuntregeneration.co.uk","https://www.linkedin.com/company/john-f-hunt-regeneration","https://youtube.com/@johnfhuntregeneration7450?si=tXbvKZeA2EAbM-v4"]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="John F Hunt Regeneration &raquo; Feed" href="https://www.johnfhuntregeneration.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="John F Hunt Regeneration &raquo; Comments Feed" href="https://www.johnfhuntregeneration.co.uk/comments/feed/" />
+<meta content="John F Hunt Regeneration v.0.1" name="generator"/><link data-minify="1" rel='stylesheet' id='jquery.prettyphoto-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wp-video-lightbox/css/prettyPhoto.css?ver=1722346794' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='video-lightbox-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wp-video-lightbox/wp-video-lightbox.css?ver=1722346794' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.johnfhuntregeneration.co.uk/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:root :where(body){padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel='stylesheet' id='jfh-styles-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/techvertu-youtube-fetcher/assets/css/style.css?ver=1722346794' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='wpvrfontawesome-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/releases/v6.5.1/css/all.css?ver=1722346794' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='panellium-css-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/lib/pannellum/src/css/pannellum.css?ver=1722346794' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='videojs-css-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/lib/pannellum/src/css/video-js.css?ver=1722346794' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='videojs-vr-css-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/lib/videojs-vr/videojs-vr.css?ver=1722346794' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='owl-css-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/css/owl.carousel.css?ver=1722346794' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='wpvr-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/css/wpvr-public.css?ver=1722346794' type='text/css' media='all' />
+<link rel='stylesheet' id='cmplz-general-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1717579141' type='text/css' media='all' />
+<link rel='stylesheet' id='css-divi-area-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/plugins/popups-for-divi/styles/front.min.css?ver=3.0.5' type='text/css' media='all' />
+<style id='css-divi-area-inline-css' type='text/css'>
+.et_pb_section.popup{display:none}
+</style>
+<link rel='stylesheet' id='dcl-slick-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/plugins/wow-carousel-for-divi-lite/assets/libs/slick/slick.min.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dcl-magnific-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/plugins/wow-carousel-for-divi-lite/assets/libs/magnific/magnific-popup.min.css?ver=2.0.2' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='dcl-frontend-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wow-carousel-for-divi-lite/assets/css/frontend.css?ver=1722346794' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='dflip-style-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css?ver=1722346794' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-table-of-contents-styles-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/plugins/divi-table-of-contents-maker/styles/style.min.css?ver=1.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpvr-divi-modules-styles-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/plugins/wpvr/includes/wpvr-divi-modules/styles/style.min.css?ver=1.0.0' type='text/css' media='all' />
+
+<link rel='stylesheet' id='wpforms-choicesjs-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/plugins/wpforms-lite/assets/css/integrations/divi/choices.min.css?ver=9.0.1' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='divi-style-parent-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/themes/Divi/style-static.min.css?ver=1722346794' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='divi-style-css' href='https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/themes/john-f-hunt-regeneration/style.css?ver=1722346794' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wp-video-lightbox/js/jquery.prettyPhoto.js?ver=1722346794" id="jquery.prettyphoto-js" defer></script>
+<script type="text/javascript" id="video-lightbox-js-extra">
+/* <![CDATA[ */
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.8","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"\/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wp-video-lightbox/js/video-lightbox.js?ver=1722346794" id="video-lightbox-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/lib/pannellum/src/js/pannellum.js?ver=1722346794" id="panellium-js-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/lib/pannellum/src/js/libpannellum.js?ver=1722346794" id="panelliumlib-js-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/js/video.js?ver=1722346794" id="videojs-js-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/lib/videojs-vr/videojs-vr.js?ver=1722346794" id="videojsvr-js-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/lib/pannellum/src/js/videojs-pannellum-plugin.js?ver=1722346794" id="panelliumvid-js-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/js/owl.carousel.js?ver=1722346794" id="owl-js-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/js/jquery.cookie.js?ver=1722346794" id="jquery_cookie-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/plugins/popups-for-divi/scripts/ie-compat.min.js?ver=3.0.5" id="dap-ie-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/ajax/libs/jquery/2.1.3/jquery.min.js?ver=1722346795" id="jquery-fast-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/themes/john-f-hunt-regeneration/js/scripts?ver=1" id="jfh-scripts-totals-js" defer></script>
+<link rel="https://api.w.org/" href="https://www.johnfhuntregeneration.co.uk/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.johnfhuntregeneration.co.uk/wp-json/wp/v2/posts/3646" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.johnfhuntregeneration.co.uk/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<link rel='shortlink' href='https://www.johnfhuntregeneration.co.uk/?p=3646' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.johnfhuntregeneration.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.johnfhuntregeneration.co.uk%2Fnews%2Fadam-fisher-joins-john-f-hunt-as-director-of-ground-engineering%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.johnfhuntregeneration.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.johnfhuntregeneration.co.uk%2Fnews%2Fadam-fisher-joins-john-f-hunt-as-director-of-ground-engineering%2F&#038;format=xml" />
+<script type="rocketlazyloadscript" data-minify="1" defer="" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/m/v3.min.js?ver=1722346795"></script>
+<script type="rocketlazyloadscript">
+            WP_VIDEO_LIGHTBOX_VERSION="1.9.11";
+            WP_VID_LIGHTBOX_URL="https://www.johnfhuntregeneration.co.uk/wp-content/plugins/wp-video-lightbox";
+                        function wpvl_paramReplace(name, string, value) {
+                // Find the param with regex
+                // Grab the first character in the returned string (should be ? or &)
+                // Replace our href string with our new value, passing on the name and delimeter
+
+                var re = new RegExp("[\?&]" + name + "=([^&#]*)");
+                var matches = re.exec(string);
+                var newString;
+
+                if (matches === null) {
+                    // if there are no params, append the parameter
+                    newString = string + '?' + name + '=' + value;
+                } else {
+                    var delimeter = matches[0].charAt(0);
+                    newString = string.replace(re, delimeter + name + "=" + value);
+                }
+                return newString;
+            }
+            </script>         <style type="text/css" id="bloody-hamburger-color">
+             .mobile_menu_bar:before { color: #2ea3f2 !important; }
+         </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+jQuery(document).ready(function($) {
+    $('img[title]').each(function() { $(this).removeAttr('title'); });
+});
+});</script>
+
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/ajax/libs/slick-carousel/1.6.0/slick.js?ver=1722346795" defer></script>
+
+<link data-minify="1" rel="stylesheet" href="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/releases/v5.0.8/css/all.css?ver=1722346794" crossorigin="anonymous"><link rel="icon" href="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/02/cropped-Regeneration-Favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/02/cropped-Regeneration-Favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/02/cropped-Regeneration-Favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/02/cropped-Regeneration-Favicon-270x270.png" />
+<style id="et-divi-customizer-global-cached-inline-styles">body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url,body .et_pb_bg_layout_light .et_pb_post p,body .et_pb_bg_layout_dark .et_pb_post p{font-size:14px}.et_pb_slide_content,.et_pb_best_value{font-size:15px}h1,h2,h3,h4,h5,h6{color:#555555}a{color:#008aab}.nav li ul{border-color:#ef810a}#main-header .nav li ul a{color:rgba(0,0,0,0.7)}#top-menu li.current-menu-ancestor>a,#top-menu li.current-menu-item>a,#top-menu li.current_page_item>a{color:#008aab}#main-footer{background-color:#15314e}#main-footer .footer-widget h4,#main-footer .widget_block h1,#main-footer .widget_block h2,#main-footer .widget_block h3,#main-footer .widget_block h4,#main-footer .widget_block h5,#main-footer .widget_block h6{color:#ef810a}.footer-widget li:before{border-color:#ef810a}.footer-widget .et_pb_widget div,.footer-widget .et_pb_widget ul,.footer-widget .et_pb_widget ol,.footer-widget .et_pb_widget label{line-height:1.7em}#et-footer-nav{background-color:#1d4568}#et-footer-nav .bottom-nav li.current-menu-item a{color:#2ea3f2}body .et_pb_bg_layout_light.et_pb_button:hover,body .et_pb_bg_layout_light .et_pb_button:hover,body .et_pb_button:hover{border-radius:0px}@media only screen and (min-width:981px){.et_header_style_centered.et_hide_primary_logo #main-header:not(.et-fixed-header) .logo_container,.et_header_style_centered.et_hide_fixed_logo #main-header.et-fixed-header .logo_container{height:11.88px}.et-fixed-header #top-menu li.current-menu-ancestor>a,.et-fixed-header #top-menu li.current-menu-item>a,.et-fixed-header #top-menu li.current_page_item>a{color:#008aab!important}}@media only screen and (min-width:1350px){.et_pb_row{padding:27px 0}.et_pb_section{padding:54px 0}.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper{padding-top:81px}.et_pb_fullwidth_section{padding:0}}h1,h1.et_pb_contact_main_title,.et_pb_title_container h1{font-weight:700}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-weight:700}h3{font-weight:700}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-weight:700}h5{font-weight:700}h6{font-weight:700}.et_pb_slide_description .et_pb_slide_title{font-weight:700}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-weight:700}	h1,h2,h3,h4,h5,h6{font-family:'Montserrat',Helvetica,Arial,Lucida,sans-serif}body,input,textarea,select{font-family:'Nunito',Helvetica,Arial,Lucida,sans-serif}#main-header,#et-top-navigation{font-family:'Nunito',Helvetica,Arial,Lucida,sans-serif}#top-header .container{font-family:'Nunito',Helvetica,Arial,Lucida,sans-serif}.verticla-box h3 span,.verticla-box h3 strong{display:inline-block;vertical-align:middle}.colorful-blurb-box .et_pb_blurb_container{padding-left:25px;padding-right:25px;padding-bottom:25px}.colorful-blurb-box h3{font-size:30px;font-weight:bold}.colorful-blurb-box .et_pb_blurb_description span{display:block}.colorful-blurb-box.yellow h3{color:#EF810A}.colorful-blurb-box.green h3{color:#008AAB}.colorful-blurb-box.brown h3{color:#555555}.colorful-blurb-box.black h3{color:#15314E}.colorful-blurb-box.green{border-bottom:5px solid #008AAB}.colorful-blurb-box.brown{border-bottom:5px solid #555555}.colorful-blurb-box.black{border-bottom:5px solid #15314E}.colorful-blurb-box.yellow{border-bottom:5px solid #EF810A}.colorful-blurb-box.black a.blurb-box-button{background-color:#15314E}.colorful-blurb-box.brown a.blurb-box-button{background-color:#555555}.colorful-blurb-box.green a.blurb-box-button{background-color:#008AAB}.colorful-blurb-box a.blurb-box-button{display:inline-block;padding:9px 50px;border-radius:25px;background-color:#EF810A;background-image:url(https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2024/06/Vector-11.svg);background-position:25px center;background-repeat:no-repeat;background-size:18px;color:#fff;font-weight:bold;font-size:18px;margin-top:11px}.map-iframe-wrapper{position:relative}.map-iframe-wrapper h2{position:absolute;bottom:0}.verticla-box ul{width:80%;padding-bottom:0}.verticla-box.none-flex .regen-list{display:inline-block;vertical-align:middle;width:48%}.verticla-box.none-flex .image-wrapper img{display:block}.verticla-box.none-flex .image-wrapper{display:inline-block;vertical-align:middle;width:48%;border-radius:10px;overflow:hidden}.single .et_pb_text_inner h2 p,.page .et_pb_text_inner h2 p,.page .et_pb_text_inner h3 p,.page .et_pb_text_inner h1 p{color:rgba(0,0,0,0.11)!important;line-height:0em;padding-bottom:14px;font-size:80px}.single .et_pb_text_inner h2 p span,.page .et_pb_text_inner h2 p span,.page .et_pb_text_inner h3 p span,.page .et_pb_text_inner h1 p span{color:#555555;line-height:60px;font-size:50px}.verticla-box h3 span{font-weight:bold;font-size:62px}.verticla-box h3 strong{font-size:26px;font-weight:bold;margin-left:15px}.verticla-box h3{display:flex;align-items:center;justify-content:center;margin-right:2%;width:37%}.regen-info-box.verticla-box{display:flex;justify-content:left}.regen-package-box.low-height{height:110px}.regen-package-box.low-height p{font-size:21px}.land-box h4{margin-top:10px}.regen-info-box.verticla-box ul li{margin-bottom:15px;list-style:none;display:inline-block;font-size:18px;color:#555;width:100%;vertical-align:middle}.page-id-364710 .consultation-form .et_pb_button:hover,.page-id-364851 .consultation-form .et_pb_button:hover,.page-id-365349 .consultation-form .et_pb_button:hover,button.et_pb_contact_submit.et_pb_button:hover{background-color:orange;border-radius:10px}.regen-info-box.verticla-box ul li:last-child{margin-bottom:0}.regen-info-box.verticla-box ul li svg{float:left;margin-top:-6px}.regen-info-box.verticla-box ul li p{float:right;width:93%}.verticla-box.yellow-cl h3 span,.verticla-box.yellow-cl h3 strong{color:#EF810A}.verticla-box.black-cl h3 span,.verticla-box.black-cl h3 strong{color:#555555}.verticla-box.black-cl{border-color:#555555;background-color:#fafafa}.verticla-box.blue-cl{border-color:#008AAB;background-color:#e6f4f7}.verticla-box.blue-cl h3 span,.verticla-box.blue-cl h3 strong{color:#008AAB}.verticla-box.yellow-cl{border-color:#EF810A;background-color:#fff3e7}.verticla-box.dark-gray-cl h3 span,.verticla-box.dark-gray-cl h3 strong{color:#15314E}.verticla-box.dark-gray-cl{border-color:#15314E;background-color:#e8ecef}@media only screen and (max-width:980px){.regen-info-box.verticla-box.none-flex ul li p{width:85%!important}html .et_pb_section.contact-help{padding:0!important}}@media only screen and (max-width:720px){.services-box-holder .et_pb_column{width:47%!important;margin-right:2%!important}h1{font-size:33px!important}.regen-info-box.verticla-box{display:block}.regen-info-box.verticla-box h3,.regen-info-box.verticla-box ul{width:100%}.regen-info-box.verticla-box ul li p{width:86%}.regen-info-box h3{margin:30px 0}html .project-wrapper .post-item{width:100%}html .project-wrapper ul li{width:100%}.regen-info-box.verticla-box.none-flex ul li{width:100%!important}#exclusive-line-height h3>p:first-child{line-height:70px}.verticla-box.none-flex .image-wrapper{width:100%}.verticla-box.none-flex .regen-list{width:100%}.regen-info-box.verticla-box.none-flex ul li p{width:83%!important}.verticla-box.none-flex .regen-list{margin-top:20px}.mobile-insure{vertical-align:top;margin-right:2%;margin-left:2%;margin-bottom:0!important}#HOWWECANHELPYOU a{letter-spacing:0}.sustain .et_pb_fullwidth_header_container{width:100%!important}.mobile-insure h3 a,.mobile-insure h4 a{word-wrap:normal;font-size:17px!important}html .et_pb_column.form-container-request{width:100%!important}_::-webkit-full-page-media,_:future,:root .mdr-container .et_pb_text_0.et_pb_text{margin-top:80px!important}_::-webkit-full-page-media,_:future,:root .et_pb_section_2.et_pb_section{margin-top:-171px!important}}.regen-info-box.verticla-box.none-flex,.regen-info-box.verticla-box.none-flex h3{display:block}.regen-info-box.verticla-box.none-flex h3{width:100%;margin-bottom:12px}.verticla-box.none-flex ul{width:100%}.regen-info-box.verticla-box.none-flex ul li{width:100%}.regen-info-box.verticla-box.none-flex ul li p{width:92%}.regen-info-box.verticla-box.none-flex>p{margin-bottom:30px}.rotation-box{position:absolute;left:-3px;right:0;top:0;bottom:0;-webkit-backface-visibility:hidden;backface-visibility:hidden;transform:rotateY(180deg);background-color:#EF810A;width:103%;height:100%}.df-viewer.df-flipbook{padding-top:75px!important;padding-bottom:75px!important}.df-viewer-container::before{position:absolute;content:"";background:url(https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2023/09/Logo-Regeneration.svg);width:200px;height:30px;background-repeat:no-repeat;padding:20px;top:20px;left:20px}.power-pop{display:none}.rotation-box p{transform:rotateY(180deg);display:none;color:#fff}.rotation-box-wrapper{position:retalive;transition:transform 0.8s;transform-style:preserve-3d;transform:rotateY(0);perspective:1000px}.rotation-box-wrapper.white .rotation-box{background-color:#F1F1F1}.rotation-box-wrapper.white .rotation-box p{color:#666}.rotation-box-wrapper.blue .rotation-box{background-color:#008aac}.rotation-box-wrapper.dark-blue .rotation-box{background-color:#15314e}.rotation-box-wrapper.brown .rotation-box{background-color:#555555}.rotation-box-wrapper.white-orange .rotation-box{background-color:#f1f1f1}.rotation-box-wrapper.white-orange .rotation-box p{color:#666}.rotation-box-wrapper.white-orange h4{color:#EF810A}.rotation-box-wrapper.light-blue .rotation-box{background-color:#1d4568}.rotation-box-wrapper.light-blue .rotation-box p{color:#fff}.rotation-box-wrapper.brown .rotation-box p{color:#fff}.rotation-box-wrapper.dark-blue .rotation-box p{color:#fff}.rotation-box-wrapper.blue .rotation-box p{color:#fff}.rotation-box-wrapper:hover{transform:rotateY(180deg)}.rotation-box-wrapper:hover .rotation-box{transform:rotateY(0deg)}.rotation-box-wrapper:hover .rotation-box p{display:block}.regen-package-box{width:100%;height:240px;border-radius:10px;align-items:center;display:flex;justify-content:center}@media only screen and (max-width:720px){html .et_pb_column_19,html .et_pb_column_20,html .et_pb_column_18,html .et_pb_column_10,html .et_pb_column_11{width:100%!important}.fix-spacing .header-content{margin:0!important}}@media only screen and (max-width:360px){.mdr-container{margin-top:-150px!important}}.regen-resources-box{min-height:300px;display:flex;align-items:center;justify-content:center}.regen-resources-box .et_pb_blurb_description p a{background-color:#555555;color:#fff;border-radius:25px;display:inline-block;padding:10px 15px}.regen-accardion.et_pb_accordion .et_pb_toggle{margin-bottom:10px;border-bottom:0;padding:0}.regen-accardion.et_pb_accordion .et_pb_toggle_title:before{right:10px}.regen-accardion.et_pb_accordion .et_pb_toggle_content{padding:20px;background-color:rgba(241,241,241,0.2);margin-top:-10px;border-radius:0 0 10px 10px}.regen-accardion.et_pb_accordion .et_pb_toggle_title:before{right:10px;color:#333}.regen-accardion.et_pb_accordion .et_pb_toggle_open h5.et_pb_toggle_title:after{font-family:ETmodules!important;font-weight:500!important;content:"\32"!important;right:10px;position:absolute;font-size:33px}.regen-accardion.et_pb_accordion .et_pb_toggle h5,.regen-accardion.et_pb_accordion .et_pb_toggle h3{padding:20px;background-color:#F1F1F1;border-radius:10px}.regen-package-box p{text-align:center;color:#FFFFFF;font-size:26px;font-weight:700;max-width:70%}.regen-package-box.blue{background-color:#008AAB}.regen-package-box.brown{background-color:#555555}.regen-package-box.white{background-color:#F1F1F1}.regen-package-box.white p{color:#555555}.regen-package-box.white{background-color:#F1F1F1}.regen-package-box.dark-blue{background-color:#15314E}html .consultation-form input,html .consultation-form select,html .consultation-form textarea{border:1px solid #E4E4E4;border-radius:10px;background-color:#FCFCFC;font-weight:600}html .consultation-form select,html .consultation-form option{font-weight:600}html .consultation-form button{display:block;width:100%;background-color:#EF810A;border-color:#EF810A;color:#fff;border-radius:10px}html .consultation-form .et_contact_bottom_container{width:100%}#top-menu li li a{padding:6px 20px}.regen-info-box{background-color:#FAFAFA;padding:30px;border-left:10px solid #008AAB;border-radius:10px}.regen-info-box h3{font-size:25px;font-weight:700}.regen-info-box h3 span{margin-right:10px}.regen-info-box.yellow-cl h3{color:#EF810A}.regen-info-box.blue-cl h3{color:#008AAB}.regen-info-box.blue-cl h3{color:#008AAB}.regen-info-box p{font-size:18px}.et_pb_fullwidth_header_0{margin-left:0!important}li.et-social-linkedin{display:none}li.et-social-twitter a.icon:hover:before{filter:invert(100%) sepia(99%) saturate(15%) hue-rotate(245deg) brightness(103%) contrast(100%)}.et-social-icons li{margin-left:5px!important}.et-social-twitter a.icon:before{background:url('https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2023/08/X-1.svg') no-repeat;margin-top:-8px;position:relative;z-index:10;display:inline-block;width:40px;height:30px;vertical-align:middle;border-radius:5px;padding:5px;box-sizing:border-box}.nav li ul{border-radius:0 0 10px 10px}#sector1 .et_pb_gutters3 .et_pb_column_1_3{width:32.6667%!important}.scale{-webkit-transition:all .2s ease-in-out}.scale:hover{box-shadow:0 4px 18px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.page-id-1258 .scale:hover{box-shadow:0 4px 18px 0 rgba(0,0,0,0.1),0 6px 10px 0 rgba(0,0,0,0.15)}.scale1{-webkit-transition:all .2s ease-in-out}.scale1:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0),0 6px 10px 0 rgba(0,0,0,0.19)}body #page-container .et_pb_section .et_pb_button_0:hover{background-color:#ef810a!important}body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button,.et_pb_gutters3 .et_pb_column .et_pb_blog_grid .column.size-1of3 .et_pb_post:last-child,.et_pb_gutters3 .et_pb_column_4_4 .et_pb_blog_grid .column.size-1of3 .et_pb_post,.et_pb_gutters3 .et_pb_column_1_2 .et_pb_module,.et_pb_image_0 .et_pb_image_wrap,.et_pb_image_1 .et_pb_image_wrap,.et_pb_image_2 .et_pb_image_wrap,.et_pb_image_3 .et_pb_image_wrap{-webkit-transition:all .2s ease-in-out}.page-id-59 body #page-container .et_pb_section .et_pb_contact_form_0.et_pb_contact_form_container.et_pb_module .et_pb_button:hover{box-shadow:0 4px 18px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.page-id-59 .et_pb_gutters3 .et_pb_column .et_pb_blog_grid .column.size-1of3 .et_pb_post:last-child:hover,.page-id-59 .et_pb_gutters3 .et_pb_column_4_4 .et_pb_blog_grid .column.size-1of3 .et_pb_post:hover,.page-id-59 .et_pb_image_0 .et_pb_image_wrap:hover,.page-id-59 .et_pb_image_1 .et_pb_image_wrap:hover,.page-id-59 .et_pb_image_2 .et_pb_image_wrap:hover,.page-id-59 .et_pb_image_3 .et_pb_image_wrap:hover{box-shadow:0 4px 18px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.page-id-59 .et_pb_blog_0 .et_pb_post .entry-featured-image-url img{border-radius:10px 10px 0 0}body #page-container .et_pb_section .et_pb_button_3:hover,body #page-container .et_pb_section .et_pb_button_2:hover,body #page-container .et_pb_section .et_pb_button_1:hover,body #page-container .et_pb_section .et_pb_button_4:hover,body #page-container .et_pb_section .et_pb_button_5:hover,body #page-container .et_pb_section .et_pb_button_6:hover{background-color:#f69935!important}.et_pb_gutters3.et_pb_footer_columns4 .footer-widget .fwidget{margin-bottom:7%}.sup{vertical-align:super;font-size:smaller}.menu-image img{border-radius:10px}.menu-image a{padding:0!important}.menu-image a:hover{opacity:1!important}#top-menu li.mega-menu>ul>li>a:first-child{font-size:2em}#top-menu li.mega-menu>ul{width:55%;margin-left:25%}#top-menu li.mega-menu.mega-menu-parent li>.sub-menu{background-color:#ffffff00}.category-case-studies .post-meta{display:none!important}.page-id-57 .et_pb_gutters3 .et_pb_column_4_4 .et_pb_blog_grid .column.size-1of3 .et_pb_post{min-height:325px!important}.page-id-59 .et_pb_gutters3 .et_pb_column_4_4 .et_pb_blog_grid .column.size-1of3 .et_pb_post{min-height:404px!important}.et_pb_equal_columns>.et_pb_column{margin-top:auto;margin-bottom:auto}#top-menu li li a{border-radius:40px}#main-footer .footer-widget h4{color:#ef810a}.responsive-iframe{position:absolute;top:0;left:0;bottom:0;right:0;width:100%!important;height:80vh!important;border:none}.et_pb_row{width:100%!important}.grecaptcha-badge{display:none}#main-header{z-index:12}@media (max-width:960px){.et_pb_section{padding:50px 20px!important}.et_pb_fullwidth_header_0{height:70vh!important}}@media (max-width:960px){.page-id-61	.et_pb_section,.page-id-365349 .et_pb_section,.page-id-365473 .et_pb_section{padding:0 20px!important}}.sectors-section h3.et_pb_module_header{font-weight:700;font-size:30px;color:#FFFFFF!important;line-height:2em;text-align:center}#cmplz-manage-consent .cmplz-manage-consent{box-shadow:0 0 0 transparent!important}.post-meta.block{display:block!important}.category #main-content .container{padding-top:0!important}div#et-main-area>h1{max-width:1080px;margin:0 auto;margin-top:30px}.project-wrapper .post-item{display:inline-block;width:48%;margin-right:1%;margin-bottom:1%;border-radius:10px;overflow:hidden}.project-wrapper .post-item{background-color:#15314E}.project-wrapper .post-item .post-content-wrapper{padding:10px}.project-wrapper .post-item h3{color:#fff}.project-wrapper ul li{list-style:none;width:48%;color:#fff;vertical-align:middle;display:inline-flex;justify-content:left;width:48%;padding:10px;font-size:17px;align-items:center}.project-wrapper ul li svg{margin-right:5px;width:37px}.center-items p{padding-bottom:0!important;line-height:35px}.center-items{display:flex;justify-content:center;align-items:center}.fix-spacing{}.project-wrapper ul{background-color:#008AAB;border-radius:10px;margin-bottom:0;padding-bottom:0!important}</style><style id="wpforms-css-vars-root">
+				:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-border-style: solid;
+--wpforms-field-border-size: 1px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-border-color-spare: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-field-menu-color: #ffffff;
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-border-style: none;
+--wpforms-button-border-size: 1px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-border-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-page-break-color: #066aab;
+--wpforms-background-image: none;
+--wpforms-background-position: center center;
+--wpforms-background-repeat: no-repeat;
+--wpforms-background-size: cover;
+--wpforms-background-width: 100px;
+--wpforms-background-height: 100px;
+--wpforms-background-color: rgba( 0, 0, 0, 0 );
+--wpforms-background-url: none;
+--wpforms-container-padding: 0px;
+--wpforms-container-border-style: none;
+--wpforms-container-border-width: 1px;
+--wpforms-container-border-color: #000000;
+--wpforms-container-border-radius: 3px;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+--wpforms-container-shadow-size-box-shadow: none;
+
+				}
+			</style>	<script type="rocketlazyloadscript" data-minify="1" defer="" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/m/v3.min.js?ver=1722346795"></script>
+	<meta name="google-site-verification" content="WKmg9kfZ-HvyqHiO1dYElfbQI52ZDXSHdMzuBx0MNL0" />
+</head>
+<body class="post-template-default single single-post postid-3646 single-format-standard et_pb_button_helper_class et_fixed_nav et_show_nav et_pb_show_title et_primary_nav_dropdown_animation_expand et_secondary_nav_dropdown_animation_expand et_header_style_left et_pb_svg_logo et_pb_footer_columns4 et_cover_background et_pb_gutter osx et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_right_sidebar et_divi_theme et-db">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="
+https://www.googletagmanager.com/ns.html?id=GTM-W3M5N82C"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<div id="page-container">
+
+	
+	
+			<header id="main-header" data-height-onload="66">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://www.johnfhuntregeneration.co.uk/">
+						<img src="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2023/09/Logo-Regeneration.svg" width="0" height="0" alt="John F Hunt Regeneration" id="logo" data-height-percentage="54" />
+					</a>
+				</div>
+							<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-367375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-367375"><a href="https://www.johnfhuntregeneration.co.uk/services/">What We Do</a>
+<ul class="sub-menu">
+	<li id="menu-item-365189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365189"><a href="https://www.johnfhuntregeneration.co.uk/services/industrial-dismantling/">Industrial Dismantling</a></li>
+	<li id="menu-item-365204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365204"><a href="https://www.johnfhuntregeneration.co.uk/services/industrial-demolition/">Industrial Demolition</a></li>
+	<li id="menu-item-365542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365542"><a href="https://www.johnfhuntregeneration.co.uk/services/groundwater-remediation/">Groundwater Remediation</a></li>
+	<li id="menu-item-366391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366391"><a href="https://www.johnfhuntregeneration.co.uk/services/water-treatment-pumping-solutions/">Water Treatment</a></li>
+	<li id="menu-item-366544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366544"><a href="https://www.johnfhuntregeneration.co.uk/services/full-enabling-works-packages/">Full Enabling Works</a></li>
+</ul>
+</li>
+<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-67"><a href="https://www.johnfhuntregeneration.co.uk/sectors/">Who We Serve</a>
+<ul class="sub-menu">
+	<li id="menu-item-346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346"><a href="https://www.johnfhuntregeneration.co.uk/sectors/developers/">Developers</a></li>
+	<li id="menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345"><a href="https://www.johnfhuntregeneration.co.uk/sectors/industrial/">Industrial End of Life</a></li>
+	<li id="menu-item-1791" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1791"><a href="https://www.johnfhuntregeneration.co.uk/sectors/utilities-and-infrastructure/">Utilities &#038; Infrastructure</a></li>
+	<li id="menu-item-1790" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1790"><a href="https://www.johnfhuntregeneration.co.uk/sectors/mining-minerals/">Mines and Minerals Business Sector</a></li>
+</ul>
+</li>
+<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="https://www.johnfhuntregeneration.co.uk/who-we-are/">Who We Are</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="https://www.johnfhuntregeneration.co.uk/case-studies/">Case Studies</a></li>
+<li id="menu-item-366110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-366110"><a href="https://www.johnfhuntregeneration.co.uk/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-366064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366064"><a href="https://www.johnfhuntregeneration.co.uk/resources/media/">Media</a></li>
+	<li id="menu-item-366251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366251"><a href="https://www.johnfhuntregeneration.co.uk/resources/e-brochures/">E-Brochures</a></li>
+	<li id="menu-item-366066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366066"><a href="https://www.johnfhuntregeneration.co.uk/news-and-blog/">News &#038; Blog</a></li>
+	<li id="menu-item-366252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366252"><a href="https://www.johnfhuntregeneration.co.uk/resources/panoramas/">Projects 360° View</a></li>
+</ul>
+</li>
+<li id="menu-item-363714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363714"><a href="https://www.johnfhuntregeneration.co.uk/carbon-sustainability/">Sustainability</a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="https://www.johnfhuntregeneration.co.uk/contact-us/">Contact Us</a></li>
+</ul>						</nav>
+					
+					
+					
+											<div id="et_top_search">
+							<span id="et_search_icon"></span>
+						</div>
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+						<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://www.johnfhuntregeneration.co.uk/">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+					</header> <!-- #main-header -->
+			<div id="et-main-area">
+				
+<div id="main-content">
+		<div class="container">
+		<div id="content-area" class="clearfix">
+			<div id="left-area">
+											<article id="post-3646" class="et_pb_post post-3646 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
+											<div class="et_post_meta_wrapper">
+							<h1 class="entry-title">Dr Adam Fisher Joins John F Hunt Regeneration as Director of Ground Engineering</h1>
+
+						<p class="post-meta"><span class="published">Sep 1, 2021</span> | <a href="https://www.johnfhuntregeneration.co.uk/news/" rel="category tag">Lastest News</a></p>
+												</div>
+				
+					<div class="entry-content">
+					<div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters3"><div class="et_pb_section et_pb_section_0 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0">
+				
+				
+				
+				
+				<span class="et_pb_image_wrap has-box-shadow-overlay"><div class="box-shadow-overlay"></div><img fetchpriority="high" decoding="async" width="567" height="693" src="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/09/2021-09-01-09_14_37-Adam-Fisher-Aug-21_AF-edit-300821-Word.png" alt="Adam Fisher" title="2021-09-01 09_14_37-Adam Fisher Aug 21_AF edit 300821 - Word" srcset="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/09/2021-09-01-09_14_37-Adam-Fisher-Aug-21_AF-edit-300821-Word.png 567w, https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/09/2021-09-01-09_14_37-Adam-Fisher-Aug-21_AF-edit-300821-Word-480x587.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 567px, 100vw" class="wp-image-3650" /></span>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><em>John F Hunt Regeneration are pleased to announce Adam Fisher as our Director of Ground Engineering.</em></p>
+<p>Adam has over 25 years’ experience in ground engineering and ground risk management, having started his career in 1994 working for and being mentored by Bristol University’s Dr Brian Hawkins’ partly while completing his PhD.</p>
+<p>Following such a strong introduction to consultancy, he further progressed his knowledge and experience at Parkman and WSP prior to 10 dynamic years as Director at Hydrock.</p>
+<p>In 2011, the desire for an international adventure saw him leave the UK for Western Australia’s iron ore mining industry.  Working for Calibre Global, he lead ground risk management on a portfolio of high value, complex, rapid growth projects for demanding mining blue-chip companies.</p>
+<p>After 3 amazing years, Adam and his family returned to the UK and he has worked in ground engineering/geotechnical consultancy ever since.</p>
+<p>In recent years, working alongside regeneration and civil engineering contractors while a Partner at Campbell Reith, Adam felt that crossing from pure consultancy to contracting would provide an exciting and progressive opportunity to use his skills and experience “closer to the coal face”. Having worked with us to deliver projects with great success in the past, John F Hunt was the obvious place to make the change.</p>
+<p>Adam commented:</p>
+<p><em>“I’m delighted to join John F Hunt as Ground Engineering Director. I join an amazing team of old and new friends and former colleagues going back as far as 20 years.</em></p>
+<p><em>Having delivered </em><em>ground engineering</em><em> and </em><em>risk management</em><em> on both sides of the equator, I&#8217;ll be focusing some of my efforts on large regeneration projects in Rugeley and the West Midlands &#8211; where I grew up !! </em></p>
+<p><em>With lots of </em><em>regeneration</em><em> projects across the UK in the pipeline to look forward to, there are busy times ahead.”</em></p>
+<p>Adam’s experience allows us to support schemes with complex ground engineering elements and further strengthens our ability to be “a trusted advisor” to our clients.</p>
+<p>&nbsp;</p>
+<p>August 2021</p>
+<p><a href="https://www.johnfhuntregeneration.co.uk">www.johnfhuntregeneration.co.uk</a></p>
+<p>John F Hunt Regeneration is part of the John F Hunt Group &#8211; a specialist group of construction related companies all under one roof.</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</div>
+						</div>
+					<div class="et_post_meta_wrapper">
+										</div>
+				</article>
+
+						</div>
+
+				<div id="sidebar">
+		<div id="search-2" class="et_pb_widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://www.johnfhuntregeneration.co.uk/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></div><div id="block-2" class="et_pb_widget widget_block widget_text">
+<p class="has-black-color has-text-color has-link-color has-medium-font-size wp-elements-f258671b3e13b6a0956060f5d8ef7c89">Recent Posts</p>
+</div><div id="block-3" class="et_pb_widget widget_block widget_recent_entries"><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/blog/uncovering-the-economic-potential-of-brownfield-redevelopment/">Uncovering the Economic Potential of Brownfield Redevelopment</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/blog/the-risk-and-rewards-of-land-remediation/">The Risk and Rewards of Land Remediation</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/blog/achieving-sustainable-demolition-a-comprehensive-guide/">Achieving Sustainable Demolition: A Comprehensive Guide</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/blog/understanding-brownfield-enabling/">Understanding Brownfield Enabling</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/blog/what-is-land-remediation/">Everything About Land Remediation</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/blog/soil-abnormal-challenges-in-brownfield-projects/">Soil Abnormals and Contractual Challenges in Brownfield Projects</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/blog/pfas-remediation-methods-uk/">PFAS Remediation: Treatment Methods for Soil and Water</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/news/great-progress-at-spark-walsall/">Great Progress at Spark Walsall</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/case-studies/holborn-south-shields/">Holborn, South Shields Case Study</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.johnfhuntregeneration.co.uk/news/we-are-now-members-of-the-national-federation-of-demolition-contractors/">We are now members of the National Federation of Demolition Contractors</a></li>
+</ul></div>	</div>
+		</div>
+	</div>
+	</div>
+
+
+			<footer id="main-footer">
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+		<div class="footer-widget"><div id="text-7" class="fwidget et_pb_widget widget_text"><p class='widgettitle'>Links</p>			<div class="textwidget"><ul>
+<li><a href="/our-values/">Our Values</a></li>
+<li><a href="/privacy-policy/">Privacy Policy</a></li>
+<li><a href="/terms-conditions/">Terms &amp; Conditions</a></li>
+<li><a href="https://www.johnfhuntregeneration.co.uk/pdfs/modern-slavery-policy-feb-2023.pdf">Modern Slavery Policy</a></li>
+<li><a href="https://www.johnfhuntregeneration.co.uk/pdfs/quality-policy-statement-aug-2023.pdf">Quality Policy Statement</a></li>
+<li><a href="https://www.johnfhuntregeneration.co.uk/pdfs/health-safety-and-environmental-policy-rev-11-dec-2023.pdf">Health &amp; Safety Policy Statement</a></li>
+<li><a href="https://www.johnfhuntregeneration.co.uk/pdfs/environmental-policy-statement-aug-2023.pdf">Environmental Policy Statement</a></li>
+<li><a href="/pdfs/equality-and-diversity-policy-aug-2023.pdf">Equality &amp; Diversity Policy</a></li>
+<li><a href="https://www.johnfhuntregeneration.co.uk/pdfs/anti-bribery-corruption-fraud-policy-may-2023.pdf">Anti-Bribery Corruption and Fraud Policy</a></li>
+</ul>
+</div>
+		</div></div><div class="footer-widget"><div id="nav_menu-9" class="fwidget et_pb_widget widget_nav_menu"><p class='widgettitle'>Services</p><div class="menu-services-container"><ul id="menu-services" class="menu"><li id="menu-item-365190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365190"><a href="https://www.johnfhuntregeneration.co.uk/services/industrial-dismantling/">Industrial Dismantling</a></li>
+<li id="menu-item-365203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365203"><a href="https://www.johnfhuntregeneration.co.uk/services/industrial-demolition/">Industrial Demolition</a></li>
+<li id="menu-item-365544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365544"><a href="https://www.johnfhuntregeneration.co.uk/services/groundwater-remediation/">Groundwater Remediation</a></li>
+<li id="menu-item-366670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366670"><a href="https://www.johnfhuntregeneration.co.uk/services/water-treatment-pumping-solutions/">Water Treatment</a></li>
+<li id="menu-item-366545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366545"><a href="https://www.johnfhuntregeneration.co.uk/services/full-enabling-works-packages/">Full Enabling Works</a></li>
+</ul></div></div><div id="nav_menu-11" class="fwidget et_pb_widget widget_nav_menu"><p class='widgettitle'>Sectors</p><div class="menu-sectors-container"><ul id="menu-sectors" class="menu"><li id="menu-item-341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-341"><a href="https://www.johnfhuntregeneration.co.uk/sectors/developers/">Developers</a></li>
+<li id="menu-item-340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-340"><a href="https://www.johnfhuntregeneration.co.uk/sectors/industrial/">Industrial End of Life</a></li>
+<li id="menu-item-1792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1792"><a href="https://www.johnfhuntregeneration.co.uk/sectors/utilities-and-infrastructure/">Utilities &#038; Infrastructure</a></li>
+<li id="menu-item-1793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1793"><a href="https://www.johnfhuntregeneration.co.uk/sectors/mining-minerals/">Mines and Minerals Business Sector</a></li>
+</ul></div></div></div><div class="footer-widget"><div id="text-5" class="fwidget et_pb_widget widget_text"><p class='widgettitle'>Contact Details</p>			<div class="textwidget"><h4 class="et_pb_module_header"></h4>
+<div class="et_pb_blurb_description">
+<p><strong>Head Office</strong></p>
+<p>London Road, Grays, Essex<br />
+RM20 4DB</p>
+<p>Tel: 0808 175 9800</p>
+<p><a href="mailto:regeneration@johnfhunt.co.uk">Email: regeneration</a><a href="mailto:regeneration@johnfhunt.co.uk">@johnfhunt.co.uk</a></p>
+</div>
+</div>
+		</div><div id="text-9" class="fwidget et_pb_widget widget_text">			<div class="textwidget"><div style="color: #ef810a;">John F Hunt Regeneration are <em><a href="https://environment.data.gov.uk/public-register/waste-carriers-brokers/registration/CBDU143143?__pageState=result-waste-carriers-brokers" target="_blank" rel="noopener">Licenced Waste Carriers</a></em></div>
+</div>
+		</div></div><div class="footer-widget"><div id="media_image-3" class="fwidget et_pb_widget widget_media_image"><p class='widgettitle'>Visit John F Hunt Group</p><a href="https://www.johnfhunt.co.uk/"><img width="300" height="39" src="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/03/John-F-Hunt-Logo-Final-350px-300x39.png" class="image wp-image-2414  attachment-medium size-medium" alt="John F Hunt Logo Final 350px" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/03/John-F-Hunt-Logo-Final-350px-300x39.png 300w, https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/03/John-F-Hunt-Logo-Final-350px.png 350w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><div id="media_image-4" class="fwidget et_pb_widget widget_media_image"><p class='widgettitle'>Visit Water Technology</p><a href="https://www.johnfhuntwater.co.uk/"><img width="350" height="81" src="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/03/John-F-Hunt-Water-Tech-under-White.png" class="image wp-image-2417  attachment-full size-full" alt="John F Hunt Water Tech under White" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/03/John-F-Hunt-Water-Tech-under-White.png 350w, https://www.johnfhuntregeneration.co.uk/wp-content/uploads/2021/03/John-F-Hunt-Water-Tech-under-White-300x69.png 300w" sizes="(max-width: 350px) 100vw, 350px" /></a></div><div id="custom_html-3" class="widget_text fwidget et_pb_widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- TISCreport AFFILIATE CODE f5652f2bf0ac43669e7624cbe6686e90 --><a href="https://tiscreport.org" title="UK modern slavery act compliance and  anti-slavery statement central registry"><img width="200" height="116" alt="UK modern slavery act compliance and  anti-slavery statement central registry" src="https://tiscreport.org/affiliate/affiliate-light.png?aff_code=f5652f2bf0ac43669e7624cbe6686e90"/></a><!--END OF CODE--></div></div></div>	</div>
+</div>
+
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+	<li class="et-social-icon et-social-twitter">
+		<a href="https://x.com/JohnFHunt_Group/"" class="icon">
+			<span>Twitter</span>
+		</a>
+	</li>
+	
+	<li class="et-social-icon"><a href="https://www.linkedin.com/company/john-f-hunt-regeneration/"><i class="fab fa-lg fa-linkedin-in"></i></a></li>
+
+</ul><div id="footer-info">Copyright © 2021 John F Hunt. All Rights Reserved. | Web &amp; IT Support - <a href="https://www.johnfhuntregeneration.co.uk/it-support-by-techvertu/">TechVertu</a></div>					</div>
+				</div>
+			</footer>
+		</div>
+
+
+	</div>
+
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript"> _linkedin_partner_id = "5765353"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script><script type="rocketlazyloadscript" data-rocket-type="text/javascript"> (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=5765353&fmt=gif" /> </noscript>       <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+            var ajaxurl = "https://www.johnfhuntregeneration.co.uk/wp-admin/admin-ajax.php";
+        </script>
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+        
+        jQuery(document).ready(function(){
+            
+            jQuery('.category #left-area').append('<div class="load-post-area clearfix"></div><div class="load-more-wrapper"><button data-counter="1" data-post-total="16" id="techvertu-load-more-link">load more link</button><div class="loader"></div></div>');
+            jQuery(document).on('click', '#techvertu-load-more-link', function(){
+                var totalPostCount = 16;
+                var counter = jQuery(this).attr('data-counter');
+                jQuery('.loader').addClass('block');
+                var dataTotalPosts = jQuery(this).attr('data-post-total');
+                dataTotalPosts = dataTotalPosts - 3;
+                jQuery(this).attr('data-post-total', dataTotalPosts);
+                if(dataTotalPosts == 0){
+                    jQuery(this).remove();
+                }
+                $.ajax({
+                    type: 'POST',
+                    url: 'https://www.johnfhuntregeneration.co.uk/wp-admin/admin-ajax.php',
+                    dataType: "json",
+                    data: { 
+                        action : 'get_ajax_posts_data',
+                        post_counter: +counter+1,
+                        cat_id: 12 
+                    },
+                    success: function( response ) {
+                        var data = Object.values(response);    
+                        console.log(data);  
+                        if(data.length > 0){
+                            jQuery('#techvertu-load-more-link').attr('data-counter', +counter+1);
+                            jQuery('.loader').removeClass('block');
+                            $.each( response, function( key, value ) {
+                                jQuery('.load-post-area').append('<article id="post-'+value['ID']+'" class="et_pb_post post-2029 post type-post status-publish format-standard has-post-thumbnail hentry category-case-studies"><a class="entry-featured-image-url" href="'+value['permalink']+'"><img src="'+value['image_url']+'" alt="" class="" width="1080" height="675"></a><h2 class="entry-title"><a href="'+value['permalink']+'">'+value['post_title']+'</a></h2><p class="post-meta block"><span class="published">'+value['post_excerpt']+'</span><a href="" rel="category tag"></a></p></article>');
+                            } );
+                        
+                        } 
+                        else{
+                            jQuery('#techvertu-load-more-link').remove();
+                            jQuery('.loader').remove();
+                        }               
+                    }
+                });
+            });
+        });
+    });</script>
+    <!-- Hotjar Tracking Code for https://www.johnfhuntregeneration.co.uk/ -->
+<script type="rocketlazyloadscript">
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3772734,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+(function($) { 
+    function setup_collapsible_submenus() {
+        // mobile menu
+        $('#mobile_menu .menu-item-has-children > a').after('<span class="menu-closed"></span>');
+        $('#mobile_menu .menu-item-has-children > a').each(function() {
+            $(this).next().next('.sub-menu').toggleClass('hide',1000);
+        });
+        $('#mobile_menu .menu-item-has-children > a + span').on('click', function(event) {
+            event.preventDefault();
+            $(this).toggleClass('menu-open');
+            $(this).next('.sub-menu').toggleClass('hide',1000);
+        });
+    }
+        
+    $(window).load(function() {
+        setTimeout(function() {
+            setup_collapsible_submenus();
+        }, 700);
+    });
+   
+})(jQuery);
+});</script><style id='core-block-supports-inline-css' type='text/css'>
+.wp-elements-f258671b3e13b6a0956060f5d8ef7c89 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--black);}
+</style>
+<script type="text/javascript" id="wpil-frontend-script-js-extra">
+/* <![CDATA[ */
+var wpilFrontend = {"ajaxUrl":"\/wp-admin\/admin-ajax.php","postId":"3646","postType":"post","openInternalInNewTab":"0","openExternalInNewTab":"0","disableClicks":"0","openLinksWithJS":"0","trackAllElementClicks":"0","clicksI18n":{"imageNoText":"Image in link: No Text","imageText":"Image Title: ","noText":"No Anchor Text Found"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/plugins/link-whisper-premium/js/frontend.min.js?ver=1713368068" id="wpil-frontend-script-js" defer></script>
+<script type="text/javascript" id="wpvr-js-extra">
+/* <![CDATA[ */
+var wpvr_public = {"notice_active":"","notice":""};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wpvr/public/js/wpvr-public.js?ver=1722346795" id="wpvr-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/plugins/popups-for-divi/scripts/front.min.js?ver=3.0.5" id="js-divi-area-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/plugins/wow-carousel-for-divi-lite/assets/libs/slick/slick.min.js?ver=2.0.2" id="dcl-slick-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/plugins/wow-carousel-for-divi-lite/assets/libs/magnific/jquery.magnific-popup.min.js?ver=2.0.2" id="dcl-magnific-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1" id="react-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1" id="react-dom-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/plugins/wow-carousel-for-divi-lite/assets/js/frontend.js?ver=1722346795" id="dcl-frontend-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/members\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/www.johnfhuntregeneration.co.uk","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/www.johnfhuntregeneration.co.uk\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/www.johnfhuntregeneration.co.uk\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/www.johnfhuntregeneration.co.uk\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"87e45684c4","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"c00313a93c","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"3646","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":"https:\/\/www.johnfhuntregeneration.co.uk\/wp-content\/themes\/Divi\/includes\/builder\/frontend-builder\/assets\/vendors","accent_color":"#2ea3f2","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.0" id="divi-custom-script-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/themes/Divi/js/smoothscroll.js?ver=1722346795" id="smoothscroll-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/themes/Divi/core/admin/js/es6-promise.auto.min.js?ver=4.27.0" id="es6-promise-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.google.com/recaptcha/api.js?render=6Lf1CmMpAAAAAJJSNY4nllZucYYqA31pbKqymTO7&amp;ver=4.27.0" id="et-recaptcha-v3-js"></script>
+<script type="text/javascript" id="et-core-api-spam-recaptcha-js-extra">
+/* <![CDATA[ */
+var et_core_api_spam_recaptcha = {"site_key":"6Lf1CmMpAAAAAJJSNY4nllZucYYqA31pbKqymTO7","page_action":{"action":"adam_fisher_joins_john_f_hunt_as_director_of_ground_engineering"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/themes/Divi/core/admin/js/recaptcha.js?ver=1722346795" id="et-core-api-spam-recaptcha-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=2.2.54" id="dflip-script-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=1722346795" id="fitvids-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/plugins/divi-table-of-contents-maker/scripts/frontend-bundle.min.js?ver=1.3.1" id="divi-table-of-contents-frontend-bundle-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/plugins/wpvr/includes/wpvr-divi-modules/scripts/frontend-bundle.min.js?ver=1.0.0" id="wpvr-divi-modules-frontend-bundle-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.johnfhuntregeneration.co.uk/wp-content/cache/min/1/wp-content/themes/Divi/core/admin/js/common.js?ver=1722346795" id="et-core-common-js" defer></script>
+			<script data-category="functional">
+								(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','');
+			</script>
+			<script type="rocketlazyloadscript" data-cfasync="false"> var dFlipLocation = "https://www.johnfhuntregeneration.co.uk/wp-content/plugins/3d-flipbook-dflip-lite/assets/"; var dFlipWPGlobal = {"text":{"toggleSound":"Turn on\/off Sound","toggleThumbnails":"Toggle Thumbnails","toggleOutline":"Toggle Outline\/Bookmark","previousPage":"Previous Page","nextPage":"Next Page","toggleFullscreen":"Toggle Fullscreen","zoomIn":"Zoom In","zoomOut":"Zoom Out","toggleHelp":"Toggle Help","singlePageMode":"Single Page Mode","doublePageMode":"Double Page Mode","downloadPDFFile":"Download PDF File","gotoFirstPage":"Goto First Page","gotoLastPage":"Goto Last Page","share":"Share","mailSubject":"I wanted you to see this FlipBook","mailBody":"Check out this site {{url}}","loading":"DearFlip: Loading "},"moreControls":"download,pageMode,startPage,endPage,sound","hideControls":"","scrollWheel":"false","backgroundColor":"#777","backgroundImage":"","height":"auto","paddingLeft":"20","paddingRight":"20","controlsPosition":"bottom","duration":800,"soundEnable":"true","enableDownload":"true","showSearchControl":"false","showPrintControl":"false","enableAnnotation":false,"enableAnalytics":"false","webgl":"true","hard":"none","maxTextureSize":"1600","rangeChunkSize":"524288","zoomRatio":1.5,"stiffness":3,"pageMode":"0","singlePageMode":"0","pageSize":"0","autoPlay":"false","autoPlayDuration":5000,"autoPlayStart":"false","linkTarget":"2","sharePrefix":"flipbook-"};</script><style id="et-builder-module-design-3646-cached-inline-styles">.et_pb_section_0.et_pb_section{padding-top:6px}.et_pb_image_0 .et_pb_image_wrap{border-radius:10px 10px 10px 10px;overflow:hidden;box-shadow:0px 2px 10px 0px rgba(0,0,0,0.3)}.et_pb_image_0{text-align:center}.et_pb_row_1.et_pb_row{padding-top:0px!important;margin-top:0px!important;padding-top:0px}.et_pb_text_0{line-height:1.8em;font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif;font-size:16px;line-height:1.8em}.et_pb_text_0 h6{font-weight:700;font-size:30px;color:rgba(0,0,0,0.5)!important}@media only screen and (max-width:980px){.et_pb_image_0 .et_pb_image_wrap img{width:auto}}@media only screen and (max-width:767px){.et_pb_image_0 .et_pb_image_wrap img{width:auto}}</style><script>var rocket_lcp_data = {"ajax_url":"https:\/\/www.johnfhuntregeneration.co.uk\/wp-admin\/admin-ajax.php","nonce":"73a95bd164","url":"https:\/\/www.johnfhuntregeneration.co.uk\/news\/adam-fisher-joins-john-f-hunt-as-director-of-ground-engineering","is_mobile":true,"elements":"img, video, picture, p, main, div, li, svg, section, header","width_threshold":393,"height_threshold":830,"delay":500,"debug":null}</script><script data-name="wpr-lcp-beacon" src='https://www.johnfhuntregeneration.co.uk/wp-content/plugins/wp-rocket/assets/js/lcp-beacon.min.js' async></script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1722500213 -->
